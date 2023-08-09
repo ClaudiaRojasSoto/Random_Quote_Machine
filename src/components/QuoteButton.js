@@ -4,7 +4,7 @@ import './QuoteButton.css';
 
 function QuoteButton({ onClick }) {
   return (
-    <button id="new-quote" type="button" onClick={onClick}>Nueva Cita</button>
+    <button id="new-quote" type="button" onClick={onClick}>New Quote</button>
   );
 }
 

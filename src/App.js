@@ -22,7 +22,7 @@ function App({ quote, setQuote }) {
       <div id="quote-box">
         <QuoteBox quote={quote.text} author={quote.author} />
         <div className="buttons-container">
-          <a id="tweet-quote" href={`https://twitter.com/intent/tweet?text="${quote.text}" - ${quote.author}`} target="_blank" rel="noopener noreferrer">Twittear Cita</a>
+          <a id="tweet-quote" href={`https://twitter.com/intent/tweet?text="${quote.text}" - ${quote.author}`} target="_blank" rel="noopener noreferrer">Tweet Quote</a>
           <button type="button" id="new-quote" onClick={getNewQuote}>New Quote</button>
         </div>
       </div>
