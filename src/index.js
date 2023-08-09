@@ -4,9 +4,11 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 import App from './App';
 
-ReactDOM.render(
-    <Provider store={store}>
-        <App />
-    </Provider>,
-    document.getElementById('root')
+const root = document.getElementById('root');
+const reactRoot = ReactDOM.createRoot(root);
+
+reactRoot.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
 );
