@@ -41,7 +41,7 @@ button {
   font-size: 0.8rem;
 }
 
-#tweet-quote, #new-quote {
+#tweet-quote,
+#new-quote {
   font-size: 1rem;
 }
-
