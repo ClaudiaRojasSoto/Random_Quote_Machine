@@ -85,7 +85,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> You can see a Demo [here]().
+> You can see a Demo [here](https://random-quote-machine-hcfj.onrender.com).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,38 +121,16 @@
 - `/src/index.js`: Main entry point of the JavaScript application.
 - `/src/App.js`: Top-level component of the application where components are rendered.
 - `/src/components`: Directory for React components.
-- `/src/components/HomePage.js`: Component for the home page.
-- `/src/components/HomePage.test.js`: Tests for the home page.
-- `/src/components/HomePage.css`: Styles for the home page.
-- `/src/components/navbar`: Folder for the navigation bar components.
-- `/src/components/navbar/Navbar.js`: Component for the navigation bar.
-- `/src/components/navbar/Navbar.test.js`: Tests for the navigation bar.
-- `/src/components/navbar/Navbar.css`: Styles for the navigation bar.
-- `/src/components/details`: Folder for the details components.
-- `/src/components/details/Details.js`: Component for the details.
-- `/src/components/details/Details.test.js`: Tests for the details.
-- `/src/components/details/Details.css`: Styles for the details.
-- `/src/components/countries`: Folder for the countries components.
-- `/src/components/countries/Countries.js`: Component for the countries.
-- `/src/components/countries/Countries.test.js`: Tests for the countries.
-- `/src/components/countries/Countries.css`: Styles for the countries.
-- `/src/imagesContinents`: Contains the folder of images of continents.
-- `/src/imagesContinents/continents`: Folder with images of continents.
+- `/src/components/quoteBox.js`: Component for the quoteBox.
+- `/src/components/quoteBox.css`: Styles for the quote box.
+- `/src/components/quoteButtons.js`: Folder for the quote buttons.
+- `/src/components/navbar/quoteButtons.css`: Styles for the quote Buttons.
 - `/src/redux`: Directory for Redux management.
 - `/src/redux/store.js`: Redux store configuration.
 - `/src/redux/actions`: Folder for Redux actions.
-- `/src/redux/actions/worldActions.js`: Actions for world management.
-- `/src/redux/actions/worldActions.test.js`: Tests for world actions.
-- `/src/redux/actions/countriesActions.js`: Actions for countries management.
-- `/src/redux/actions/countriesActions.test.js`: Tests for countries actions.
-- `/src/redux/actions/continentsActions.js`: Actions for continents management.
-- `/src/redux/actions/continentsActions.test.js`: Tests for continents actions.
+- `/src/redux/actions/quoteActions.js`: Actions for quote management.
 - `/src/redux/reducers`: Folder for Redux reducers.
-- `/src/redux/reducers/rootReducer.js`: Root reducer for the application.
-- `/src/redux/reducers/worldReducer.js`: Reducer for world management.
-- `/src/redux/reducers/countriesReducer.js`: Reducer for countries management.
-- `/src/redux/reducers/continentsReducer.js`: Reducer for continents management.
-- `/src/redux/reducers/*.test.js`: Tests for the reducers.
+- `/src/redux/reducers/quoteReducer.js`: Reducer for quote management.
 - `/public`: Contains the public files and assets of the application.
 - `/public/index.html`: Base HTML file of the application.
 - `/build`: Contains the generated production files.
