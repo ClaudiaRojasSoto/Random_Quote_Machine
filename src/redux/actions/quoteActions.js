@@ -1,6 +1,6 @@
-export const setQuote = (quote) => {
-    return {
-        type: 'SET_QUOTE',
-        payload: quote
-    };
-};
+const setQuote = (quote) => ({
+  type: 'SET_QUOTE',
+  payload: quote,
+});
+
+export default setQuote;
