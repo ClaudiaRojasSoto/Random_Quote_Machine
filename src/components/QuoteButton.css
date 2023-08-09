@@ -1,14 +1,16 @@
-#tweet-quote, #new-quote {
-    background-color: #2c3e51;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    margin: 0.5rem;
+#tweet-quote,
+#new-quote {
+  background-color: #2c3e51;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0.5rem;
 }
 
-#tweet-quote:hover, #new-quote:hover {
-    background-color: #34495e;
+#tweet-quote:hover,
+#new-quote:hover {
+  background-color: #34495e;
 }
