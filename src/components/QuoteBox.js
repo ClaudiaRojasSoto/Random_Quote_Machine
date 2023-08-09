@@ -1,5 +1,6 @@
 import React from 'react';
-import './QuoteBox.css'
+import PropTypes from 'prop-types';
+import './QuoteBox.css';
 
 function QuoteBox({ quote, author }) {
   return (
@@ -9,5 +10,10 @@ function QuoteBox({ quote, author }) {
     </div>
   );
 }
+
+QuoteBox.propTypes = {
+  quote: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
+};
 
 export default QuoteBox;
