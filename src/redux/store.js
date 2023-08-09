@@ -1,6 +1,10 @@
-import { createStore } from 'redux';
+import { configureStore } from '@reduxjs/toolkit';
 import quoteReducer from './reducers/quoteReducers';
 
-const store = createStore(quoteReducer);
+const store = configureStore({
+  reducer: {
+    quote: quoteReducer,
+  },
+});
 
 export default store;
